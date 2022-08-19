@@ -81,7 +81,7 @@ Button{
             width: iconWidth
             height: iconHeight
             fillMode: Image.PreserveAspectFit
-            visible: false
+            visible: true
             antialiasing: true
         }
 

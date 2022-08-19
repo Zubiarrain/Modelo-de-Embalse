@@ -36,7 +36,7 @@ Button{
             anchors.horizontalCenter: parent.horizontalCenter
             height: 16
             width: 16
-            visible: false
+            visible: true
             fillMode: Image.PreserveAspectFit
             antialiasing: false
         }

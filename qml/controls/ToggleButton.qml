@@ -37,7 +37,7 @@ Button{
             height: 25
             width: 25
             fillMode: Image.PreserveAspectFit
-            visible: false
+            visible: true
         }
     }
 }
