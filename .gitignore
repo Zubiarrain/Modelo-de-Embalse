@@ -1,0 +1,7 @@
+venv/
+qml/
+images/
+Ejecutable/
+__pycache__/
+*.xlsx
+*.log
