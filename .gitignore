@@ -1,5 +1,4 @@
 venv/
-images/
 Ejecutable/
 __pycache__/
 *.xlsx

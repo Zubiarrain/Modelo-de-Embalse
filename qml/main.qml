@@ -1,7 +1,6 @@
 import QtQuick 6
 import QtQuick.Window 2.15
 import QtQuick.Controls 6
-import Qt5Compat.GraphicalEffects
 import "controls"
 import "pages"
 import QtQuick.Dialogs
@@ -423,18 +422,6 @@ Window {
                 }
             }
         }
-    }
-
-
-    DropShadow{
-        anchors.fill: bg
-        horizontalOffset: 0
-        verticalOffset: 0
-        radius: 10
-        //samples: 16
-        color: "#80000000"
-        source: bg
-        z: 0
     }
 
     MouseArea {

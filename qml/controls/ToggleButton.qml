@@ -1,6 +1,5 @@
 import QtQuick
 import QtQuick.Controls
-import Qt5Compat.GraphicalEffects
 import QtQuick.Controls.Material 2.15
 
 Button{
@@ -39,13 +38,6 @@ Button{
             width: 25
             fillMode: Image.PreserveAspectFit
             visible: false
-        }
-
-        ColorOverlay{
-            anchors.fill: iconBtn
-            source: iconBtn
-            color: "#ffffff"
-            antialiasing: false
         }
     }
 }
